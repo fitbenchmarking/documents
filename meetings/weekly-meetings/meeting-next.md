@@ -8,7 +8,7 @@ Recurrent items
 
 New items
 ---------
-* 
+* README now has broken links etc. Is it time to make readthedocs the first class citizen and also replacing info on the wiki? 
 
 Reminders
 ---------
