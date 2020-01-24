@@ -14,7 +14,7 @@ New items
   
 Minutes
 -------
-Decided code freeze end of Feb. Then two weeks of beta testing and bug fixes before first release.
+Decided code freeze 28st Feb 2020. Then two weeks of beta testing and bug fixes before first release from 2nd to 13th March.
 
 Reminders
 ---------
