@@ -9,7 +9,7 @@ Recurrent items
 
 New items
 ---------
-* Could this package manager be of interest: https://github.blog/2019-05-10-introducing-github-package-registry/
+* ...
 
 
 Reminders
