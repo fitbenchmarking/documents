@@ -9,7 +9,7 @@ Recurrent items
 
 New items
 ---------
-* ...
+* Time to introduce a develop branch:-) And agree on how to organise our first release
 
 
 Reminders
