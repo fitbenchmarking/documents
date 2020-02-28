@@ -9,7 +9,9 @@ Recurrent items
 
 New items
 ---------
-* ...
+* Adjustment to proposed git branching workflow in last week's meeting?
+  * new workflow: kee
+* Happy with the freeze being today?
 
 
 Reminders
