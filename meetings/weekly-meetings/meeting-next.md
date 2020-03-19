@@ -9,7 +9,8 @@ Recurrent items
 
 New items
 ---------
-* ...
+* Given coronavirus etc - take on summer student yes-no?
+* Output grapper
 
 
 Reminders
