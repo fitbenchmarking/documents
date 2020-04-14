@@ -10,6 +10,7 @@ Recurrent items
 New items
 ---------
 * Discuss potential alternative ways of also displaying results table such as pdf or full web view options (anders) 
+* Discuss default Jacobian options: https://github.com/fitbenchmarking/fitbenchmarking/issues/480 (Tyrone/Michael)
 
 
 Reminders
