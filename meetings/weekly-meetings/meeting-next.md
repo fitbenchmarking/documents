@@ -20,7 +20,8 @@ New items
   * For suggested changes to front page see https://github.com/fitbenchmarking/documents/blob/master/meetings/weekly-meetings/2020/Adjustments_to_front_web_page.PNG
   * readthedocs is a super build service, however
     * readthedocs build scripts may not be controlable from our source code? Currently readthedocs build uses Python 2.7 and have tons of warnings
-    * we want local builds output to match that we display through our web page 
+    * we want local builds output to match that we display through our web page
+* unit test cli/tests/test_main.py is it a unit test? And is this is a concern?
 
 
 Reminders
