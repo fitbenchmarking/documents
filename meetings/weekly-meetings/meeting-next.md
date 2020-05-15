@@ -10,10 +10,13 @@ Recurrent items
 New items
 ---------
 * As we move out of covid-19 needs to decide on new target date for official release (anders)
-  * Do we agree we have these two strands of works
-    * code polish for release
-    * generate new science and concrete value including for specific software applications (separate target dates?)
-    * take into account we were not allowed to hire student because of covid
+  * We agree we have these strands of works
+    * MVP complete minus some tests
+    * ALC objectives for stage 2 funding
+    * code polish for beta testing before release and JOSS
+    * generate new science and concrete value including for specific software applications, some of this part of ALC
+      and some separate dates. Horace and similar Matlab minimizer will be delayed because no summer students
+      
 * Discuss potential alternative ways of also displaying results table such as pdf or full web view options (anders) 
 * Discuss default Jacobian options: https://github.com/fitbenchmarking/fitbenchmarking/issues/480 (Tyrone/Michael)
 * Discuss readthedocs builds and suggestion for changes to the www.fitbenchmarking.com front page (anders)
