@@ -8,20 +8,16 @@ Recurrent items
 
 New items
 ---------
-* From last Friday meeting's minutes:
-  * Tyrone to create release branch and before next friday. Since this is first release we may need to take it by ear,
-    but First estimate is 1 month beta testing and starting next friday
-  * Master will continue to be available for features that will not form part of release
-  * Will be looking for beta testers, and additional candidates (non code contributors)
 
-* Discuss potential alternative ways of also displaying results table such as pdf or full web view options (anders) 
-* Discuss default Jacobian options: https://github.com/fitbenchmarking/fitbenchmarking/issues/480 (Tyrone/Michael)
-* Discuss readthedocs builds and suggestion for changes to the www.fitbenchmarking.com front page (anders)
+* Complete discussion suggestion for changes to the www.fitbenchmarking.com front page (anders)
   * For suggested changes to front page see https://github.com/fitbenchmarking/documents/blob/master/meetings/weekly-meetings/2020/Adjustments_to_front_web_page.PNG
+  
+* Discuss readthedocs builds
   * readthedocs is a super build service, however
     * readthedocs build scripts may not be controlable from our source code? Currently readthedocs build uses Python 2.7 and have tons of warnings
     * we want local builds output to match that we display through our web page
 
+* ...
 
 Reminders
 ---------
