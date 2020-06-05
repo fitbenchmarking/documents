@@ -9,7 +9,7 @@ Recurrent items
 New items
 ---------
 
-* ...
+* Beta release workflow and what we were missing to match the scipy workflow
 
 Reminders
 ---------
