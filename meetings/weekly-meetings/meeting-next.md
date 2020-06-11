@@ -9,7 +9,8 @@ Recurrent items
 New items
 ---------
 
-* Beta release workflow and what we were missing to match the scipy workflow
+* Beta release workflow and what we were missing to match the scipy workflow (all)
+* How are we supporting fitbenchmarking.supp@gmail.com ? (anders)
 
 Reminders
 ---------
