@@ -9,7 +9,7 @@ Recurrent items
 New items
 ---------
 
-* ...
+* Documentation for flake8 and pylint in test travis file. reminder what is motivation for both flake8 and pylint support and as relevant doc message to reflect
 
 Reminders
 ---------
