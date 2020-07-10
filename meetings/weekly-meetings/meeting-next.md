@@ -9,7 +9,7 @@ Recurrent items
 New items
 ---------
 
-* ...
+* Discuss `unselected minimizers` in fitting_benchmarking.py (anders)
 
 Reminders
 ---------
