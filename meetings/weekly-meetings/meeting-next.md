@@ -1,4 +1,4 @@
-Participants: Tyrone Rees, Anders Markvardsen, Tim Snow
+Participants:
 
 Recurrent items
 ----------------
@@ -8,10 +8,6 @@ Recurrent items
 
 New items
 ---------
-
-* Discuss `unselected minimizers` in fitting_benchmarking.py (anders) --> **Action** Check with MW what this does
-* Need a better first example that will run without additional software --> TR to amend with an appropriate `quickstart` test
-* We should add a conda yaml file to set up a conda environment for fitbenchmarking --> TS to do this
 
 Reminders
 ---------
