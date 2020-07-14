@@ -9,6 +9,8 @@ Recurrent items
 New items
 ---------
 
+* merged in with master because that's what we need to do and you can now squash and merge and that should be fine (anders)
+
 Reminders
 ---------
 * How it is going with adding SasView problem definition files?
