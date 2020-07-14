@@ -1,22 +1,27 @@
-FitBenchmarking Steering Committee
-==================================
-
-The FitBenchmarking Steering Committee is responsible for blah of FitBenchmarking.
+FitBenchmarking Steering Group
+==============================
 
 Purpose
 -------
 
-The Committee is responsible for the following documents and processes:
+The FitBenchmarking Steering Group is responsible for the managegial aspects of the FitBenchmarking service and any projects
+that enhance the service.
 
- * …
+Some specifics: suggestions:
+* oversight of deliverables we have promissed as well as now deliverables
+* coming up with longer term roadmap
+* Funding opportunities including through commercialisation
+* On boarding new partners/organisations/individuals
+* Organisation of annual FitBenchmarking meetings
 
-The Committee operates on the following basis:
 
- * The Committee meets every … online.
- * The Committee can be reached via ...
- * Each partner has the option to provide a person to sit on the Committee, with the overall membership to be representative of the resources invested by the partner.
- * The Committee will elect a chair, who should be an employee at one of the partners.
- * The Committee meetings are open to all interested parties, but the Committee seeks only to find consensus amongst Committee members, and representatives from the team that submitted any proposal under consideration.
- * The members of the committee should have to a technical knowledge fitting and knowledge ….
+Operation of the group
+----------------------
 
-See [here](members.md) for the list of current members... not sure if needed
+ * The group to meet approximately quarterly online.
+ * The group can be reached via each of the individual members
+ * The group will elect a chair, who should be an employee at one of the partners. 
+ * Each partner has the option to provide a person to sit on the group.
+ * The group meetings are open to all interested parties, but the group seeks only to find consensus amongst group members.
+
+See [here](members.md) for the list of current members.
