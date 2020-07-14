@@ -10,7 +10,6 @@ New items
 ---------
 
 * merged in with master because that's what we need to do and you can now squash and merge and that should be fine (anders)
-* cannot merge even as owner when travis link lost (anders)
 
 Reminders
 ---------
