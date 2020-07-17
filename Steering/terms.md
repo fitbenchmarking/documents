@@ -4,10 +4,7 @@ FitBenchmarking Steering Group
 Purpose
 -------
 
-Previous agreed: The FitBenchmarking Steering Group is responsible for the managegial aspects of the FitBenchmarking service and any projects
-that enhance the service.
-
-New proposed (anders): The FitBenchmarking Steering Group is focussed on the less technical aspects of the FitBenchmarking service and any projects
+The FitBenchmarking Steering Group is focussed on the less technical aspects of the FitBenchmarking service and any projects
 that enhance the service.
 
 Specifically these are:
