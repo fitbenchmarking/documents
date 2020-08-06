@@ -9,7 +9,10 @@ Recurrent items
 New items
 ---------
 
-* ...
+* Welcome to Jari
+* Pip -- packages being required, or optional (TR)
+* How do we want to use the docker container(s)? (TR)
+
 
 Reminders
 ---------
