@@ -9,6 +9,8 @@ Recurrent items
 New items
 ---------
 
+* Our Friday meetings past 28th August
+
 * Welcome to Jari
 * Tyrone to talk to Anders about Mantid Jacobians.
 * Azure tests -- Anders to check why failures report as passing, and report back.
