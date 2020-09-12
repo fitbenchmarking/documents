@@ -8,9 +8,10 @@ Recurrent items
 
 New items
 ---------
+* On travis it appears we do all for every PR, is this intentional? Also, should notification only be send when release broke to support@fitbenchmarking.com? (Anders)
 
+Previous agenda items:
 * Our Friday meetings past 28th August
-
 * Welcome to Jari
 * Tyrone to talk to Anders about Mantid Jacobians.
 * Azure tests -- Anders to check why failures report as passing, and report back.
@@ -20,6 +21,5 @@ New items
 
 Reminders
 ---------
-* How it is going with adding SasView problem definition files?
-  - Tim has passed to Anders
+* SasView problem definition files, and its resourcing...
 * Laying out an agenda for FIRST yearly Fitbenchmarking meeting
