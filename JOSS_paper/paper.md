@@ -1,5 +1,5 @@
 ---
-title: '`FitBenchmarking`'
+title: '`FitBenchmarking`: an open source `Python` package comparing data fitting software'
 tags:
   - Python
   - fitting
@@ -32,47 +32,36 @@ affiliations:
    index: 1
  - name: Diamond light source
    index: 2
-date: September 2020
+date: October 2020
 bibliography: paper.bib
 ---
 # Summary
 
-[`FitBenchmarking`](https://fitbenchmarking.com/) is a tool that compares multiple different software packages for non-linear least squares fitting on several problem sets. This project was originally written to benchmark `Mantid` minimizers [@mantid] for neutron and muon scattering data sets. However, fitting a mathematical model to data is a fundamental task across all scientific disciplines. (At least) three groups of people have an interest in fitting software:
+Fitting a mathematical model to data is a fundamental task across all scientific disciplines. [`FitBenchmarking`](https://fitbenchmarking.com/) has been designed to to help:
 
 * Scientists, who want to know what is the best algorithm for fitting their model to data they might encounter, on their specific hardware;
 * Scientific software developers, who want to know what is the state-of-the-art in fitting algorithms and implementations, what they should recommend as their default solver, and if they should implement a new method in their software; and
 * Mathematicians and numerical software developers, who want to understand the types of problems on which current algorithms do not perform well, and to have a route to expose newly developed methods to users.
 
-Representatives of each of these communities have got together to build FitBenchmarking. We hope this tool will help foster fruitful interactions and collaborations across the disciplines.
+Representatives of each of these communities have got together to build `FitBenchmarking`. We hope this tool will help foster fruitful interactions and collaborations across the disciplines.
 
-![Concept](figures/FitBenchmarkingConcept.png)
+![Benchmarking paradigm \label{fig:concept}](figures/FitBenchmarkingConcept.png){width=60%}
 
+`FitBenchmarking` is easy to install via `pip` and our [documentation](https://fitbenchmarking.com/) guides users through the installation of some external packages we support. We provide several data sets from a range of applications and adding new data in these formats is as easy as dropping the data into a new folder. The data and fitting packages currently supported are shown in Figure \ref{fig:concept}. A key part of `FitBenchmarking` is the ease of which a user, with a basic knowledge of `Python`, can add new fitting software, data formats and different fitting comparison output metrics.
 
 # Statement of need
 
-FitBenchmarking takes data and models from real world applications and data analysis packages, such as `Mantid` [@mantid], `SasView` [@sasview] and `CUTEst` [@cutest]. It fits the data to the models by casting them as a nonlinear least-squares problem. We fit the data using a range of data fitting and nonlinear optimization software, and present comparisons through a variety of different metrics.
+`FitBenchmarking` originally started as a tool to benchmark minimizers in the data analysis package `Mantid` [@mantid], which was designed for neutron scattering and muon spectroscopy data. `FitBenchmarking` has since been significantly extended to take data and models from real world applications and data analysis packages, such as `SasView` [@sasview] and `CUTEst` [@cutest]. It fits models to the data by using a range of data fitting and nonlinear optimization software packages, and present comparisons through a variety of different metrics. These include comparison tables and performance profile plots.
 
-Given data (the crosses in Figure 2) and a model, we find the best parameters for the model by solving a least-squares problem. From Figure 2, it is clear that the solution given by lmsder is better. As the volume of data increases, and we do more and more data analysis algorithmically, it is increasingly important that we have the best algorithm without needing to check it by eye.
+Figure \ref{fig:sample} displays a data set from `FitBenchmarking` where the crosses are the data points and the two curves are fitted models using two minimizers from `GSL` [@gsl]. The fitting package finds the best parameters for the model by solving a nonlinear least-squares problem. From Figure \ref{fig:sample}, it is clear that the solution given by lmsder is better. As the volume of data increases, and we do more and more data analysis algorithmically, it is increasingly important that we have the best algorithm without needing to check it by eye. `FitBenchmarking` generates HTML output that makes it easy to compare minimizers on a given problem set.
 
-![Concept](figures/nmsimplex2_fit_for_EVS14188-90_processed_Gaussian_peaks_1_1.png)
+![A sample fit \label{fig:sample}](figures/nmsimplex2_fit_for_EVS14188-90_processed_Gaussian_peaks_1_1.png){width=70%}
 
+`FitBenchmarking` will help the scientist make an informed choice by comparing runtime and accuracy of all available minimizers, on their specific hardware, on problems from their science area.
 
-To enable ease of use, the core modules within `FitBenchmarking` are installed via `pip` with scripts and extra documentation to address the installation of the external packages (for example, `Mantid` or `RALFit` [@RALFit]). We’ve also made it straightforward to add new software and data sets by following the instructions in our [`readthedocs`](https://fitbenchmarking.readthedocs.io/en/latest/index.html) documentation – the software just needs to be callable from `Python`.
+`FitBenchmarking` will help the scientific software developer ensure that the most robust and quickest algorithms for the type of data analysis they support are available in their software.
 
-<!-- When fitting a function to experimental or simulated data, the minimizer is the
-method that adjusts the function parameters so that the model fits the data as
-closely as possible. The concept of how close a fit is to the data is defined by
-the cost function. The cost function is defined as follows:
-$$\sum_i \left(\frac{y_i^{\text{obs}} - y_i^{}}{\sigma_i}\right)^2.$$
-where $y_i$ is shorthand for $y(x_i)$, i.e. the $y$-value calculated at the observed value $x_i$ from a model,
-and $y_i^{\text{obs}}$ and $\sigma_i$ are the observed value and observed/estimated error value at $x_i$ respectively.
- -->
-
-FitBenchmarking will help the scientist make an informed choice by comparing runtime and accuracy of all available minimizers, on their specific hardware, on problems from their science area, which will ensure they are using the most appropriate minimizer.
-
-FitBenchmarking will help the scientific software developer ensure that the most robust and quickest algorithms for the type of data analysis they support are available in their software.
-
-FitBenchmarking will help mathematicians see what the state of the art is, and what kinds of data are problematic. It will give them access to real data, and will give a route for novel methods to quickly make it into production.
+`FitBenchmarking` will help mathematicians see what the state of the art is, and what kinds of data are problematic. It will give them access to real data, and will give a route for novel methods to quickly make it into production.
 
 # Acknowledgements
 
