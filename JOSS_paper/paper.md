@@ -5,26 +5,28 @@ tags:
   - fitting
   - non-linear least squares
 authors:
+  - name: Tyrone Rees
+    affiliation: 1
+  - name: Anders Markvardsen
+    affiliation: 1
+  - name: Michael Wathen
+    affiliation: 1
+  - name: Andrew Lister
+    affiliation: 1
+  - name: Patrick Odagiu
+    affiliation: 1
   - name: Atom Anuchitanukul
     affiliation: 1
   - name: Tom Farmer
     affiliation: 1
   - name: Anthony Lim
     affiliation: 1
-  - name: Andrew Lister
-    affiliation: 1
-  - name: Anders Markvardsen
-    affiliation: 1
-  - name:  Andrew McCluskey
-    affiliation: 2
-  - name: Patrick Odagiu
-    affiliation: 1
-  - name: Tyrone Rees
+  - name: Federico Montesino
     affiliation: 1
   - name: Tim Snow
     affiliation: 2
-  - name: Michael Wathen
-    affiliation: 1
+  - name:  Andrew McCluskey
+    affiliation: 2
 affiliations:
  - name: STFC Rutherford Appleton Laboratory
    index: 1
@@ -35,7 +37,7 @@ bibliography: paper.bib
 ---
 # Summary
 
-[`FitBenchmarking`](https://fitbenchmarking.com/) is a tool which compares multiple different software packages for non-linear least squares fitting on several problem sets. This project was original written to benchmark Mantid minimizers [@mantid] for neutron and muon scattering data sets. However, fitting a mathematical model to data is a fundamental task across all scientific disciplines. (At least) three groups of people have an interest in fitting software:
+[`FitBenchmarking`](https://fitbenchmarking.com/) is a tool that compares multiple different software packages for non-linear least squares fitting on several problem sets. This project was originally written to benchmark `Mantid` minimizers [@mantid] for neutron and muon scattering data sets. However, fitting a mathematical model to data is a fundamental task across all scientific disciplines. (At least) three groups of people have an interest in fitting software:
 
 * Scientists, who want to know what is the best algorithm for fitting their model to data they might encounter, on their specific hardware;
 * Scientific software developers, who want to know what is the state-of-the-art in fitting algorithms and implementations, what they should recommend as their default solver, and if they should implement a new method in their software; and
@@ -43,8 +45,19 @@ bibliography: paper.bib
 
 Representatives of each of these communities have got together to build FitBenchmarking. We hope this tool will help foster fruitful interactions and collaborations across the disciplines.
 
-FitBenchmarking takes data and models from real world applications and data analysis packages, such as Mantid [@mantid] and CUTEst [@cutest]. It fits the data to the models by casting them as a nonlinear least-squares problem. We fit the data using a range of data fitting and nonlinear optimization software, and present comparisons through a variety of different metrics. One of the main concepts behind FitBenchmarking is how
-![Concept](../../fitbenchmarking/docs/images/FitBenchmarkingConcept.png){ width=50%,align=center}
+![Concept](figures/FitBenchmarkingConcept.png){ width=60%}
+
+
+# Statement of need
+
+FitBenchmarking takes data and models from real world applications and data analysis packages, such as `Mantid` [@mantid], `SasView` [@sasview] and `CUTEst` [@cutest]. It fits the data to the models by casting them as a nonlinear least-squares problem. We fit the data using a range of data fitting and nonlinear optimization software, and present comparisons through a variety of different metrics.
+
+Given data (the crosses in Figure 2) and a model, we find the best parameters for the model by solving a least-squares problem. From Figure 2, it is clear that the solution given by lmsder is better. As the volume of data increases, and we do more and more data analysis algorithmically, it is increasingly important that we have the best algorithm without needing to check it by eye.
+
+![Concept](figures/nmsimplex2_fit_for_EVS14188-90_processed_Gaussian_peaks_1_1.png){ width=70%}
+
+
+To enable ease of use, the core modules within `FitBenchmarking` are installed via `pip` with scripts and extra documentation to address the installation of the external packages (for example, `Mantid` or `RALFit` [@RALFit]). We’ve also made it straightforward to add new software and data sets by following the instructions in our [`readthedocs`](https://fitbenchmarking.readthedocs.io/en/latest/index.html) documentation – the software just needs to be callable from `Python`.
 
 <!-- When fitting a function to experimental or simulated data, the minimizer is the
 method that adjusts the function parameters so that the model fits the data as
