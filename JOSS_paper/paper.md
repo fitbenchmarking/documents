@@ -45,7 +45,7 @@ bibliography: paper.bib
 
 Representatives of each of these communities have got together to build FitBenchmarking. We hope this tool will help foster fruitful interactions and collaborations across the disciplines.
 
-![Concept](figures/FitBenchmarkingConcept.png){ width=60%}
+![Concept](figures/FitBenchmarkingConcept.png)
 
 
 # Statement of need
@@ -54,7 +54,7 @@ FitBenchmarking takes data and models from real world applications and data anal
 
 Given data (the crosses in Figure 2) and a model, we find the best parameters for the model by solving a least-squares problem. From Figure 2, it is clear that the solution given by lmsder is better. As the volume of data increases, and we do more and more data analysis algorithmically, it is increasingly important that we have the best algorithm without needing to check it by eye.
 
-![Concept](figures/nmsimplex2_fit_for_EVS14188-90_processed_Gaussian_peaks_1_1.png){ width=70%}
+![Concept](figures/nmsimplex2_fit_for_EVS14188-90_processed_Gaussian_peaks_1_1.png)
 
 
 To enable ease of use, the core modules within `FitBenchmarking` are installed via `pip` with scripts and extra documentation to address the installation of the external packages (for example, `Mantid` or `RALFit` [@RALFit]). We’ve also made it straightforward to add new software and data sets by following the instructions in our [`readthedocs`](https://fitbenchmarking.readthedocs.io/en/latest/index.html) documentation – the software just needs to be callable from `Python`.
