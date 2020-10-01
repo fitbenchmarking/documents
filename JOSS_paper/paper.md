@@ -28,9 +28,9 @@ authors:
   - name:  Andrew McCluskey
     affiliation: 2
 affiliations:
- - name: STFC Rutherford Appleton Laboratory
+ - name: Science and Technology Facilities Council, Rutherford Appleton Laboratory, Harwell Campus, Didcot, Oxfordshire, OX11 0QX
    index: 1
- - name: Diamond light source
+ - name: Diamond Light Source Ltd, Diamond House, Harwell Campus, Didcot, Oxfordshire, OX11 0DE
    index: 2
 date: October 2020
 bibliography: paper.bib
