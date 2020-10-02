@@ -37,7 +37,7 @@ bibliography: paper.bib
 ---
 # Summary
 
-Fitting a mathematical model to data is a fundamental task across all scientific disciplines. [`FitBenchmarking`](https://fitbenchmarking.com/) has been designed to help:
+Fitting a mathematical model to data is a fundamental task across scientific disciplines. [`FitBenchmarking`](https://fitbenchmarking.com/) has been designed to help:
 
 * Scientists, who want to know what is the best algorithm for fitting their model to data they might encounter, on their specific hardware;
 * Scientific software developers, who want to know what is the state-of-the-art in fitting algorithms and implementations, what they should recommend as their default solver, and if they should implement a new method in their software; and
