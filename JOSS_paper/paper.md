@@ -39,8 +39,8 @@ bibliography: paper.bib
 
 Fitting a mathematical model to data is a fundamental task across scientific disciplines. [`FitBenchmarking`](https://fitbenchmarking.com/) has been designed to help:
 
-* Scientists, who want to know what is the best algorithm for fitting their model to data they might encounter, on their specific hardware;
-* Scientific software developers, who want to know what is the state-of-the-art in fitting algorithms and implementations, what they should recommend as their default solver, and if they should implement a new method in their software; and
+* Scientists, who want to know what is the best algorithm for fitting their model to data they might encounter, on their specific hardware.
+* Scientific software developers, who want to know what is the state-of-the-art in fitting algorithms and implementations, what they should recommend as their default solver, and if they should implement a new method in their software.
 * Mathematicians and numerical software developers, who want to understand the types of problems on which current algorithms do not perform well, and to have a route to expose newly developed methods to users.
 
 Representatives of each of these communities have got together to build `FitBenchmarking`. We hope this tool will help foster fruitful interactions and collaborations across the disciplines.
