@@ -59,7 +59,7 @@ Figure \ref{fig:sample} displays a data set from `FitBenchmarking` where the cro
 
 ![A sample fit \label{fig:sample}](figures/nmsimplex2_fit_for_EVS14188-90_processed_Gaussian_peaks_1_1.png){width=70%}
 
-`FitBenchmarking` will help the scientist make an informed choice by comparing runtime and accuracy of all available minimizers, on their specific hardware, on problems from their science area.
+`FitBenchmarking` will help the scientist make an informed choice by comparing runtime and accuracy of selected minimizers, on their specific hardware, on problems from their science area.
 
 `FitBenchmarking` will help the scientific software developer ensure that the most robust and quickest algorithms for the type of data analysis they support are available in their software.
 
