@@ -73,4 +73,6 @@ We also would like to acknowledge funding support from:
 * EPSRC Grant EP/M025179/1 -- Least Squares: Fit for the Future.
 * The Ada Lovelace Centre (ALC).
 
+And for helpful discussions in the very stages from Nick Draper and Roman Tolchenov, and maybe mention Nick Gould and others from group who included in discussions somewhere along the route?
+
 # References
