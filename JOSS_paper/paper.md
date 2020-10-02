@@ -49,6 +49,8 @@ Representatives of each of these communities have got together to build `FitBenc
 
 `FitBenchmarking` is easy to install via `pip` and our [documentation](https://fitbenchmarking.com/) guides users through the installation of some external packages we support. We provide several data sets from a range of applications and adding new data in these formats is as easy as dropping the data into a new folder. The data and fitting packages currently supported are shown in Figure \ref{fig:concept}. A key part of `FitBenchmarking` is the ease of which a user, with a basic knowledge of `Python`, can add new fitting software, data formats and different fitting comparison output metrics.
 
+Within `FitBenchmarking` we name a fitting algorithm a minimizer.    
+
 # Statement of need
 
 `FitBenchmarking` originally started as a tool to benchmark minimizers in the data analysis package `Mantid` [@mantid], which was designed for neutron scattering and muon spectroscopy data. `FitBenchmarking` has since been significantly extended to take data and models from real world applications and data analysis packages, such as `SasView` [@sasview] and `CUTEst` [@cutest]. It fits models to the data by using a range of data fitting and nonlinear optimization software packages, and present comparisons through a variety of different metrics. These include comparison tables and performance profile plots.
