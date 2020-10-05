@@ -15,7 +15,7 @@ authors:
     affiliation: 1
   - name: Patrick Odagiu
     affiliation: 1
-  - name: Atom Anuchitanukul
+  - name: Atijit Anuchitanukul
     affiliation: 1
   - name: Tom Farmer
     affiliation: 1
