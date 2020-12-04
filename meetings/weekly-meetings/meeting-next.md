@@ -8,7 +8,7 @@ Recurrent items
 
 New items
 ---------
-* ...
+* Plan for 3m graduate placement Ben Peters (anders)
 
 
 Reminders
