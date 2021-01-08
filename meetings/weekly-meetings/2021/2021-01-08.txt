@@ -1,0 +1,36 @@
+08/01/2021
+
+Discussed:
+	• Behind on milestones (have mitigating circumstances)
+		○ Derivatives out of Mantid - Hard!
+		○ Others should be straight forward
+	• Sprint meetings
+		○ Fortnightly - Monday 1:00pm or in place of Friday meeting?
+		○ Setup workflow before grads start
+	• Resources
+		○ 2 Placement students:
+			§ Ben Peters
+				□ Technology Dept
+				□ No funding from home dept - ALC funded (Band C) 0.25FTE from budget?
+				□ 1st April
+				□ Enable FitBM on ISIS software (Matlab)
+			§ Rob Abley?
+				□ Mantid Grad
+				□ Python + C++ experience
+				□ Funded
+		○ SCD Placement Graduate
+		○ Diamond
+			§ New Data Analysis GL
+			§ No current effort available
+			§ Maybe in Autumn
+	• Additional date from facilities
+		○ SASView
+			§ More work than expected
+			§ Anders + Tim wc 18th?
+			§ Part of grad work (Rob)? - Find out in 2 weeks
+		○ Mantid or SASView training guides
+		○ Discuss at next meeting
+
+Actions:
+[]	Tyrone force through Azure move
+[]  Andrew add authentication to docker with tests
