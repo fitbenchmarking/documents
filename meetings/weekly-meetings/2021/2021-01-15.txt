@@ -1,0 +1,29 @@
+15/01/2021
+
+To raise:
+	• Anders not available:
+		○ Confirmed Ben start date 01/04/21
+		○ Confirmed Rob start date 13/09/21
+		○ SASView
+			§ No news
+			§ Wait until Ben starts?
+			§ Discuss at future meeting (maybe look for matching gap in calendars - 2 days?)
+	• Switch to GH Actions?
+Discussed:
+	• numdifftools
+		○ PR nearly ready
+		○ Accurate but slow…
+		○ Possibly just needs tuning (lots of options)
+		○ Could profile to check why nd tools is slower
+	• output grabber
+		○ Extend options - display/log-only/debug
+	• data assimilation
+		○ Jari has experience
+	• SCD Graduate proposal has gone in.
+	• GitHub Actions pr missing linting!
+
+Actions:
+[]	Finalise GitHub actions PR
+[]	Update pandas
+[]	Output grabber options (as above)
+[]  Add issue to investigate numdifftools speed.
