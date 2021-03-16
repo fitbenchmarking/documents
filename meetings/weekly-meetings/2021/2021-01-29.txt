@@ -1,0 +1,5 @@
+Discussed:
+	• Anders role changing - still space for Fitbenchmarking
+	• Jess Farmer confirmed joining team
+	• Levmar!!?!?
+		○ Next step is debugging with C source
