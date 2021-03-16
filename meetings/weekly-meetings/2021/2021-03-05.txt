@@ -1,0 +1,19 @@
+To Raise:
+	• Timing for meeting
+		○ Anders can't make second half
+		○ Anders can't make every other
+		○ Move to Tues/Wed/Thurs?
+
+Progress:
+	• Lots of good PR's none merged yet
+	• Upgraded tests to run on 20.04 (with some kinks to work out)
+	• Joss paper feedback has been implemented (pending merge)
+
+Issues:
+	• PyGSL stops using latest pip
+	• Regression tests flip between 2 values
+	• New iminuit needed build pipeline upgrade
+
+Actions:
+	Email about move meetings to Tuesday at 11:00
+	Contact pygsl maintainer
