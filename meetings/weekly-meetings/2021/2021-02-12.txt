@@ -1,0 +1,6 @@
+Discussed:
+	• API
+		
+	• NAG interested in fitbenchmarking
+		○ Persistent website links
+	• Mantid 
