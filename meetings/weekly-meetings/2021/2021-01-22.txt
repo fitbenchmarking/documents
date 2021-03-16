@@ -1,0 +1,6 @@
+To raise:
+ - Anders not available:
+		○ Has meeting with new staff member
+Discussed:
+ - Plots issue fixed (forced throughas problem with CI)
+ - Levmar seems to be broken for passed in jacobians
