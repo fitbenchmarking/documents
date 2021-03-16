@@ -1,0 +1,18 @@
+To Raise:
+	• ALC Schedule
+
+Progress:
+	• Poisson merged!
+	• Incompatible options is ready
+	• Adjusted milestone deadlines to better reflect the project
+		○ Split out Mantid jacobian issue (3b)
+		○ Brought forward global optimization
+		○ Pushed back cloud hosted results
+
+Issues:
+	• Linting errors have been highlighted to be fixed
+	• Behind on some ALC objectives
+
+Actions:
+	Open issues for the linting errors
+	
