@@ -1,0 +1,10 @@
+To Raise:
+	• New release!?
+
+Discussed:
+	• Release notes
+		○ packaged with the software in PyPI
+		○ updated on each PR
+	• Jari and Anthony interested in ties
+	• Badges are not working
+
